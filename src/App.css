@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgreen;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.homepage {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  margin: 10px;
+  padding: 10px;
+}
+
+.allplayers {
+  font-family:'Courier New', Courier, monospace;
+  margin: 10px;
+  padding:10px;
+}
+
+.newplayer {
+  font-family:'Courier New', Courier, monospace;
+  margin: 10px;
+  padding:10px;
+}
+
+#name {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+#breed {
+  display: flex;
+}
+
+#submit {
+  display: flex;
+  margin-left: 196px;
+}
